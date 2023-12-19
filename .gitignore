@@ -1,0 +1,11 @@
+.next
+node_modules
+.env
+env.json
+/public/workbox*
+/public/sw*
+package-lock.json
+
+.env.local
+.env
+.env.production
