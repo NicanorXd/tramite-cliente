@@ -76,16 +76,7 @@ const Login = ({ pathname, query }) => {
   // render
   return (
     <div className="auth" style={{ minHeight: "100vh" }}>
-      <header
-        id="auth-header"
-        className={`auth-header bg-default`}
-        style={{
-          paddingTop: "3em",
-          backgroundImage: `url(${
-            (app_context.app.cover && app_context.app.cover) || "/img/fondo.jpg"
-          })`,
-        }}
-      >
+      <header id="auth-header" className={`mt-5 text-center`}>
         <a href={app_context.app && app_context.app.support}>
           <img
             src={
@@ -103,7 +94,7 @@ const Login = ({ pathname, query }) => {
           />
         </a>
 
-        <h4 style={{ textShadow: "1px 1px #346cb0" }}>
+        <h4 style={{ fontSize: "1.5em" }}>
           {(app_context && app_context.app.name) || "Integración"}
         </h4>
 
