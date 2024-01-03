@@ -7,6 +7,9 @@
   "description": "Sistema Finanaciero para Entidades Publicas",
   "main": "index.js",
   "scripts": {
+    "old:dev": "NODE_OPTIONS=--openssl-legacy-provider next",
+    "old:build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "old:start": "next start -p 3000",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "next start -p 3000",
