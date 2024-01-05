@@ -186,6 +186,17 @@ const ShowInfo = ({ validateFile = [], onArchived = null }) => {
           </Show>
         </div>
       </div>
+      {/* QR y Seguimiento */}
+      <div className="col-md-2 mb-2">
+        <div className="mb-2">
+          <button
+            className="btn btn-outline-primary btn-block"
+            onClick={(e) => setOption(["TIMELINE"])}
+          >
+            <i className="fas fa-search"></i> Seguímiento
+          </button>
+        </div>
+      </div>
       {/* tracking */}
       <div className="col-md-12 mb-2">
         <b>
