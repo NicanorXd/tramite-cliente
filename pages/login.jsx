@@ -176,12 +176,6 @@ const Login = ({ pathname, query }) => {
         </div>
       </form>
 
-      <footer className="auth-footer text-center">
-        {" "}
-        © 2019 - {new Date().getFullYear()} {app_context?.app?.name} | Todos Los
-        Derechos Reservados <a href="#">Privacidad</a> y<a href="#">Terminos</a>
-      </footer>
-
       <Show condicion={option == "APPS"}>
         <DownloadApps isClose={(e) => setOption("")} />
       </Show>
